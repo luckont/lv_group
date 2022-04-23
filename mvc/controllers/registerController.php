@@ -1,10 +1,10 @@
 <?php
 class registerController extends controller{
     public function defaultAction(){
-        $this->showLogin();
+        $this->showRegister();
         // Khi ng dùng k nhập url
     }
-    public function showLogin(){
+    public function showRegister(){
         $this->view("masterLayout",[
             "Page" => "register_page"
         ]); 

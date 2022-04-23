@@ -27,7 +27,7 @@ $con = mysqli_connect('localhost','root','','lv_group');
 					value ('".$username."','".$pass."','".$phonenumber."')
 				");
 				echo'<script>alert("Bạn đã đăng ký thành công !")</script>';
-				echo '<script>window.location.href="home_page.php"</script>';
+				echo '<script>window.location.href="http://localhost/WatchWebPro/loginController"</script>';
 			}
 		}
     

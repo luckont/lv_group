@@ -27,7 +27,7 @@
 			</div>
 		</div>
         <button type="submit" class="btn btn-primary w-100 mb-2" name="dangky" id="dangky">Đăng ký</button>
-          <p class="mb-0 text-center">Bạn đã có tài khoản thành viên ? Hãy <a href="">Đăng nhập</a> !</p>
+          <p class="pb-5 mb-0 text-center">Bạn đã có tài khoản thành viên ? Hãy <a href="">Đăng nhập</a> !</p>
       </form>
 
 </div>
@@ -38,9 +38,7 @@
 <script type="text/javascript" src="http://localhost/WatchWebPro/public/js/jquery.validate.js"></script>
 
 	<script type="text/javascript">
-		// $.validator.setDefaults({
-		// 	submitHandler: function () { alert("submitted!"); }
-		// });
+
 		$(document).ready(function() {
 			$("#signupForm").validate({
 				rules: {

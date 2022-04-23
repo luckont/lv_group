@@ -24,7 +24,7 @@
                   <i class="nav__icon fa-solid fa-user" data-toggle="dropdown"></i>
                   <ul class="dropdown-menu text-center">
                       <li class="pt-2 btn btn-primary w-75"><a href="http://localhost/WatchWebPro/registerController" class="text-white">Đăng ký</a></li>
-                      <li class="m-2 btn btn-success w-75"><a href="#" class="text-white">Đăng nhập</a></li>
+                      <li class="m-2 btn btn-success w-75"><a href="http://localhost/WatchWebPro/loginController" class="text-white">Đăng nhập</a></li>
                       <li class="pb-2 btn btn-dark w-75"><a href="#" class="text-white">Đăng xuất</a></li>
                   </ul>
 
