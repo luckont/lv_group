@@ -1,0 +1,39 @@
+
+
+.md-line {
+    height: 3px;
+    width: 90px;
+    background-color: #E5E5E5;
+}
+
+.intro_banner {
+    height: 350px;
+}
+
+.intro_banner img {
+    object-fit: cover;
+    object-position: 50%;
+}
+
+
+.box_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #E2BA48;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_icon img{
+    width: 60%;
+    height: 60%;
+}
+
+.intro__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

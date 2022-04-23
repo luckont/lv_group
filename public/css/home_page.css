@@ -1,0 +1,218 @@
+
+.h2_title::before {
+    border-bottom: 4px double #e4e4e4;
+    bottom: 3px;
+    content: "";
+    left: 0; 
+    right: 0;
+    margin: 0 auto;
+    position: absolute;
+    width: 50px;
+    z-index: 1;
+}
+
+.h2_title{
+    color: var(--titleColor);
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 32px;
+    margin-bottom: 16px;
+    padding-bottom: 25px;
+    position: relative;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.old__price {
+    text-decoration: line-through;
+}
+/*-------------------------------Product-----------------------------------*/
+
+.row {
+    margin: 20px !important;
+    justify-content: space-evenly;
+}
+.product__box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: transparent;
+    padding: 15px;
+    position: relative;
+    overflow: hidden;
+}
+.product__box:hover {
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #E1E1E1;
+    cursor: pointer;
+}
+
+.product__box:hover .product__img{
+    transform: scale(1.1,1.1);
+    transition: all 0.5s ease;
+}
+
+.product__box:hover .add_cart {
+    display: block;
+    opacity: 0;
+    animation: cart_up 0.2s linear forwards ;
+}
+
+@keyframes cart_up {
+    to {
+       transform: translateY(-20px); 
+       opacity: 1;
+    }
+
+}
+.product__img {
+    width: 290px;
+    height: 290px;
+    object-fit: contain;
+    margin-bottom: 10px;   
+}
+.product__info {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.type {
+    font-size: 0.7rem;
+    color: var(--greyColor);
+    text-transform: uppercase;
+    margin-bottom: 3px;
+}
+
+.product__name {
+    color: var(--textColor);
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    height: 60%;
+}
+.product__name:hover {
+    color: var(--hoverColor);
+}
+
+.hiden-text {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; /*Đến dòng ba thì hiện ...*/
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.old__price {
+    color: var(--greyColor);
+    font-size: 0.9rem;
+}
+
+.new__price {
+    color: var(--textColor);
+    font-size: 0.9rem;
+}
+
+.add_cart {
+    position: absolute;
+    bottom: 110px;
+    left: 20px;
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+
+.add_cart__icon {
+    color: black;
+    font-size: 30px;
+}
+
+/*-------------------------------SERVICE---------------------------------------- */
+.service{
+    padding: 50px 0;
+    background-image: url(http://mauweb.monamedia.net/dongho/wp-content/uploads/2018/03/movement-gears-background.jpg); 
+}
+.service__item {
+    height: 90px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    justify-content: center;
+}
+
+.service__icon{
+    font-size: 40px;
+    color: white;
+}
+.service__content {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.service__content h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}
+
+.service__content p{
+    font-size: 14px;
+    color: var(--greyColor);
+    margin: 0;
+}
+
+.not-ml-mr{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+/*-------------------------------Banner---------------------------------------- */
+.banner__item {
+    height: 308px;
+    width: 50%;
+}
+.banner__item:hover .banner__img{
+    transform: scale(1.1,1.1);
+    transition: all 0.8s ease;
+}
+
+.banner__img {
+    width: 100%;
+    height: 100%;
+}
+
+.banner__text {
+    position: absolute;
+    top: 50px;
+    right: 40px;
+    width: 210px;
+    height: 200px;
+}
+.banner__text h3 {
+    color: var(--hoverColor);
+    text-align: right;
+    font-size: 30px;
+    font-weight: 700;
+    
+}
+
+.banner__text h4 {
+    color: white;
+    font-size: 18px;
+    text-align: right;
+}
+
+.banner__text a {
+    color: var(--hoverColor);
+    padding: 6px 18px;
+    border: 2px solid var(--hoverColor);
+    font-weight: 600;
+    right: 0;
+    position: absolute;
+    margin-top: 10px;
+}

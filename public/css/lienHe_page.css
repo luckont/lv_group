@@ -1,0 +1,23 @@
+.contact_main {
+    height: 650px;
+    background-image: url("http://mauweb.monamedia.net/dongho/wp-content/uploads/2018/03/unsplash18-4-of-5.jpg");
+    background-position: 12% 6%;
+    background-size: cover;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__left {
+    background-color: #F1C96C;
+    opacity: 0.7;
+    padding: 60px 30px;
+}
+
+.contact__left h2 {
+    font-size: 38px;
+}
+.contact__left h2,
+.contact__left p{
+    color: black;
+}
